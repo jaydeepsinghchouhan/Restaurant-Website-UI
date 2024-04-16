@@ -33,7 +33,7 @@ function Offer() {
         </Grid>
         <Grid item xs={7} sx={{display:'flex', justifyContent:'flex-end', alignItems:'top', position:'relative', top:-97, right:10}} >
         <Stack>
-            <img src={OfferPNG} width='110%vw'></img>
+            <img src={OfferPNG} style={{filter: 'drop-shadow(3px 7px 7px rgba(0, 0, 0, 0.5))'}} width='110%vw'></img>
         </Stack>
         </Grid>
         </Grid>

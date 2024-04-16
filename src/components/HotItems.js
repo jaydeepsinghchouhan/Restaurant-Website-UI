@@ -2,7 +2,6 @@ import React from "react";
 import { Stack, Typography, Divider, Container, Box } from "@mui/material";
 import BorderPNG from "../assets/images/border.png";
 import HotItemCard from "./HotItemCard";
-import Slider from 'react-slick';
 
 function HotItems() {
   

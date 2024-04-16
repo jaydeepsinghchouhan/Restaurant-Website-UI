@@ -175,7 +175,7 @@ function Banner(rating) {
       <Grid item xs={4} sx={{ display: "flex", justifyContent: "left" }}>
         <Stack item>
           {" "}
-          <img src={BurgerPNG} width="626px"></img>
+          <img src={BurgerPNG} style={{filter: 'drop-shadow(2px 7px 4px rgba(0, 0, 0, 0.7))'}} width="626px"></img>
         </Stack>
         <Box
           item
