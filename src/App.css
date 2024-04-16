@@ -1,5 +1,12 @@
+::-webkit-scrollbar {
+  width: 0;
+}
 .App {
+  font-family:'Poppins, sans-serif';
   text-align: center;
+  width: '1728px';
+  background:linear-gradient(207.06deg, #FFD0A7 25.55%, #FFA453 74.02%);
+  
 }
 
 .App-logo {
@@ -13,8 +20,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/* .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
