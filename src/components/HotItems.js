@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Typography, Divider, Container } from "@mui/material";
+import { Stack, Typography, Divider, Container, Box } from "@mui/material";
 import BorderPNG from "../assets/images/border.png";
 import HotItemCard from "./HotItemCard";
 import Slider from 'react-slick';
@@ -8,7 +8,7 @@ function HotItems() {
   
   return (
     <>
-      <Container container sx={{ paddingTop: "50px" }}>
+      <Box container sx={{ paddingTop: "50px", width:'100vw' }}>
         <Stack
           item
           container
@@ -47,13 +47,10 @@ function HotItems() {
             experience
           </Typography>
         </Stack>
-        <Stack spacing={5} direction='row' width='100%'>
-          <HotItemCard/>
-          <HotItemCard/>
-          <HotItemCard/>
+        <Stack spacing={5} direction='row' width='100%' paddingTop='5%'>
           <HotItemCard/>
         </Stack>
-      </Container>
+      </Box>
     </>
   );
 }

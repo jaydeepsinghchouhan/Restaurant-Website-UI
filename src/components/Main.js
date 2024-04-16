@@ -5,6 +5,8 @@ import Banner from "./Banner";
 import HotItems from "./HotItems";
 import '../App.css'
 import HotItemCard from "./HotItemCard";
+import Offer from "./Offer";
+import AboutUs from "./AboutUs";
 
 function Main() {
   return (
@@ -25,6 +27,8 @@ function Main() {
       <Navbar/>
       <Banner/>
       <HotItems/>
+      <Offer/>
+      <AboutUs/>
     </>
   );
 }
