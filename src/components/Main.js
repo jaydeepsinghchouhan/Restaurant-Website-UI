@@ -4,9 +4,9 @@ import BurgerBackgroundPNG from "../assets/images/burgerBackground.png";
 import Banner from "./Banner";
 import HotItems from "./HotItems";
 import '../App.css'
-import HotItemCard from "./HotItemCard";
 import Offer from "./Offer";
 import AboutUs from "./AboutUs";
+import HexButton from './HexButton';
 
 function Main() {
   return (
@@ -29,6 +29,7 @@ function Main() {
       <HotItems/>
       <Offer/>
       <AboutUs/>
+      <HexButton/>
     </>
   );
 }
